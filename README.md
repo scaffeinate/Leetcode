@@ -34,6 +34,11 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 112|Path Sum|Easy|
 118|Pascal's Triangle|Easy|
 119|Pascal's Triangle II|Easy|
+121|Best Time to Buy and Sell Stock|Easy|
+122|Best Time to Buy and Sell Stock II|Easy|
+125|Valid Palindrome|Easy|
+136|Single Number|Easy|
+141|Linked List Cycle|Easy|
 
 ## License
 [MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
