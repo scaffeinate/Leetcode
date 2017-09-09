@@ -5,6 +5,7 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 | # | Title | Difficulty |
 |---| ----- | ---------- |
 1|Two Sum|Easy|
+7|Reverse Integer|Easy|
 9|Palindrome Number|Easy|
 13|Roman to Integer|Easy|
 14|Longest Common Prefix|Easy|
