@@ -1,6 +1,6 @@
 # Leetcode
 
-Leetcode solutions in Java.
+Leetcode solutions in Java for 300+ problems[Solutions are being added].
 
 | # | Title | Difficulty |
 |---| ----- | ---------- |
