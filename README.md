@@ -39,6 +39,10 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 125|Valid Palindrome|Easy|
 136|Single Number|Easy|
 141|Linked List Cycle|Easy|
+155|Min Stack|Easy|
+160|Intersection of Two Linked Lists|Easy|
+167|Two Sum II - Input array is sorted|Easy|
+168|Excel Sheet Column Title|Easy|
 
 ## License
 [MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
