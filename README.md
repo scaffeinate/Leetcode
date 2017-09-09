@@ -43,6 +43,10 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 160|Intersection of Two Linked Lists|Easy|
 167|Two Sum II - Input array is sorted|Easy|
 168|Excel Sheet Column Title|Easy|
+169|Majority Element|Easy|
+170|Two Sum III - Data structure design|Easy|
+171|Excel Sheet Column Number|Easy|
+
 
 ## License
 [MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
