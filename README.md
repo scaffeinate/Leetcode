@@ -25,6 +25,13 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 83|Remove Duplicates from Sorted List|Easy|
 88|Merge Sorted Array|Easy|
 100|Same Tree|Easy|
+101|Symmetric Tree|Easy|
+104|Maximum Depth of Binary Tree|Easy|
+107|Binary Tree Level Order Traversal II|Easy|
+108|Convert Sorted Array to Binary Search Tree|Easy|
+110|Balanced Binary Tree|Easy|
+111|Minimum Depth of Binary Tree|Easy|
+112|Path Sum|Easy|
 
 ## License
 [MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
