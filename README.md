@@ -2,6 +2,8 @@
 
 Leetcode solutions in Java for 300+ problems[Solutions are being added].
 
+## Easy
+
 | # | Title | Difficulty |
 |---| ----- | ---------- |
 1|Two Sum|Easy|
