@@ -75,7 +75,9 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 257|Binary Tree Paths|Easy|
 258|Add Digits|Easy|
 263|Ugly Number|Easy|
-
+266|Palindrome Permutation|Easy|
+268|Missing Number|Easy|
+270|Closest Binary Search Tree Value|Easy|
 
 ## License
 [MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
