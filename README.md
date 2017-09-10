@@ -63,6 +63,11 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 231|Power of Two|Easy|
 232|Implement Queue using Stacks|Easy|
 234|Palindrome Linked List|Easy|
+235|Lowest Common Ancestor of a Binary Search Tree|Easy|
+237|Delete Node in a Linked List|Easy|
+242|Valid Anagram|Easy|
+243|Shortest Word Distance|Easy|
+246|Strobogrammatic Number|Easy|
 
 
 ## License
