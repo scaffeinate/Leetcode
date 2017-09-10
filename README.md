@@ -47,6 +47,22 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 170|Two Sum III - Data structure design|Easy|
 171|Excel Sheet Column Number|Easy|
 172|Factorial Trailing Zeroes|Easy|
+189|Rotate Array|Easy|
+190|Reverse Bits|Easy|
+191|Number of 1 Bits|Easy|
+198|House Robber|Easy|
+202|Happy Number|Easy|
+203|Remove Linked List Elements|Easy|
+204|Count Primes|Easy|
+205|Isomorphic Strings|Easy|
+206|Reverse Linked List|Easy|
+217|Contains Duplicate|Easy|
+219|Contains Duplicate II|Easy|
+225|Implement Stack using Queues|Easy|
+226|Invert Binary Tree|Easy|
+231|Power of Two|Easy|
+232|Implement Queue using Stacks|Easy|
+234|Palindrome Linked List|Easy|
 
 
 ## License
