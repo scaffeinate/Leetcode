@@ -68,6 +68,11 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 242|Valid Anagram|Easy|
 243|Shortest Word Distance|Easy|
 246|Strobogrammatic Number|Easy|
+252|Meeting Rooms|Easy|
+256|Paint House|Easy|
+257|Binary Tree Paths|Easy|
+258|Add Digits|Easy|
+263|Ugly Number|Easy|
 
 
 ## License
