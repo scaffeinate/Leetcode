@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8c511b0-c66b-4744-a09b-622c5807c973" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/easy/ExcelSheetColumnNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/easy/FactorialTrailingZeros.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/easy/MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/leetcode/easy/TwoSumIII.java" />
         <option value="$PROJECT_DIR$/src/leetcode/easy/ExcelSheetColumnNumber.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/easy/FactorialTrailingZeros.java" />
       </list>
     </option>
   </component>
@@ -149,10 +150,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -841,6 +838,14 @@
             <element signature="e#419#420#0" expanded="true" />
             <element signature="e#494#495#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/easy/FactorialTrailingZeros.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -46,6 +46,7 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 169|Majority Element|Easy|
 170|Two Sum III - Data structure design|Easy|
 171|Excel Sheet Column Number|Easy|
+172|Factorial Trailing Zeroes|Easy|
 
 
 ## License
