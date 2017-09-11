@@ -78,6 +78,13 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 266|Palindrome Permutation|Easy|
 268|Missing Number|Easy|
 270|Closest Binary Search Tree Value|Easy|
+276|Paint Fence|Easy|
+278|First Bad Version|Easy|
+283|Move Zeroes|Easy|
+290|Word Pattern|Easy|
+292|Nim Game|Easy|
+293|Flip Game|Easy|
+303|Range Sum Query - Immutable|Easy|
 
 ## License
 [MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
