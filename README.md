@@ -95,6 +95,11 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 350|Intersection of Two Arrays II|Easy|
 359|Logger Rate Limiter|Easy|
 367|Valid Perfect Square|Easy|
+371|Sum of Two Integers|Easy|
+374|Guess Number Higher or Lower|Easy|
+383|Ransom Note|Easy|
+387|First Unique Character in a String|Easy|
+389|Find the Difference|Easy|
 
 ## License
 [MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
