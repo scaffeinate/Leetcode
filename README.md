@@ -85,6 +85,16 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 292|Nim Game|Easy|
 293|Flip Game|Easy|
 303|Range Sum Query - Immutable|Easy|
+326|Power of Three|Easy|
+339|Nested List Weight Sum|Easy|
+342|Power of Four|Easy|
+344|Reverse String|Easy|
+345|Reverse Vowels of a String|Easy|
+346|Moving Average from Data Stream|Easy|
+349|Intersection of Two Arrays|Easy|
+350|Intersection of Two Arrays II|Easy|
+359|Logger Rate Limiter|Easy|
+367|Valid Perfect Square|Easy|
 
 ## License
 [MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
