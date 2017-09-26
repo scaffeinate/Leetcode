@@ -100,6 +100,7 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 383|Ransom Note|Easy|
 387|First Unique Character in a String|Easy|
 389|Find the Difference|Easy|
+414|Third Maximum Number|Easy|
 
 ## License
 [MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
