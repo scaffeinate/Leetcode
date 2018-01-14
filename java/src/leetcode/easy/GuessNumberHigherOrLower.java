@@ -1,27 +1,22 @@
-package leetcode.easy;
+/* The guess API is defined in the parent class GuessGame.
+   @param num, your guess
+   @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
+      int guess(int num); */
 
-/**
- * Question: https://leetcode.com/problems/guess-number-higher-or-lower/description/
- */
-public class GuessNumberHigherOrLower extends GuessGame {
-
-    public GuessNumberHigherOrLower(int guess) {
-        super(guess);
-    }
-
+public class Solution extends GuessGame {
     public int guessNumber(int n) {
-        return guessNumber(1, n);
-    }
-
-    private int guessNumber(int start, int end) {
-        if (start > end) return start;
-        int middle = (int) (((long) start + end) / 2);
-        int guess = guess(middle);
-        if (guess == 0) return middle;
-        else if (guess == -1) {
-            return guessNumber(start, middle - 1);
-        } else {
-            return guessNumber(middle + 1, end);
+        int start = 1, end = n;
+        while(start <= end) {
+            int middle = (int) (((long) start + end)/2);
+            int result = guess(middle);
+            if(result == 0) {
+                return middle;
+            } else if(result > 0) {
+                start = middle + 1;
+            } else {
+                end = middle - 1;
+            }
         }
+        return -1;
     }
 }
