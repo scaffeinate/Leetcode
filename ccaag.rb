@@ -16,7 +16,7 @@ end
 
 def init
     g = Git.init
-
+    puts "\nWelcome. CREATE COMMIT AND ADD TO GIT"
     puts "\nGood job! Seems like you are done with a problem."
     puts "\nEnter Leetcode problem #:"
     problem_no = gets.chomp
@@ -30,7 +30,7 @@ def init
     if java_code.length > 0
         java_file_name = problem_name.split(" ").join("") + ".java"
         create_file("java/src/leetcode/easy/", java_file_name, java_code)
-        puts "\n Wrote to java/src/leetcode/easy/#{java_file_name}"
+        puts "\nWrote to java/src/leetcode/easy/#{java_file_name}"
     end
 
     puts "\nPaste Javascript code; Type N when done, S to skip:"
@@ -39,7 +39,7 @@ def init
     if javascript_code.length > 0
         javascript_file_name = (problem_name[0].downcase + problem_name[1, problem_name.length-1]).split(" ").join("") + ".js"
         create_file("javascript/easy/", javascript_file_name, javascript_code)
-        puts "\n Wrote to javascript/easy/#{javascript_file_name}"
+        puts "\nWrote to javascript/easy/#{javascript_file_name}"
     end
 
     puts "\nPaste Ruby code; Type N when done, S to skip:"
@@ -48,7 +48,7 @@ def init
     if ruby_code.length > 0
         ruby_file_name = problem_name.split(" ").join("_").downcase + ".rb"
         create_file("ruby/easy/", ruby_file_name, ruby_code)
-        puts "Wrote to ruby/easy/#{ruby_file_name}"
+        puts "\nWrote to ruby/easy/#{ruby_file_name}"
     end
 
     puts "\nExcellent! Do you want to commit to Git? (Y/N)"
@@ -65,7 +65,7 @@ def init
         g.push
         puts "Pushed to master :)"
     end
-    puts "Goodbye!\n"
+    puts "Success! Goodbye!\n"
 end
 
 init()
