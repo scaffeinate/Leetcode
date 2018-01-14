@@ -106,3 +106,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 404|Sum of Left Leaves|Easy|
 414|Third Maximum Number|Easy|
 409|Longest Palindrome|Easy|
+412|Fizz Buzz|Easy|
