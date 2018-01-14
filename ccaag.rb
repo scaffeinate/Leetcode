@@ -1,5 +1,7 @@
 require 'git'
 
+DIFFICULTIES = ['easy', 'medium', 'hard']
+
 def get_multiline_input
   input = ""
   while (text = gets) != "N\n" && (text != "S\n")
@@ -24,13 +26,16 @@ def init
     puts "\nEnter Leetcode problem name:"
     problem_name = gets.chomp
 
+    puts "\nEnter Leetcode problem difficulty; 0 for easy, 1 for medium, 2 for hard:"
+    difficulty = gets.chomp.to_i
+
     puts "\nPaste Java code; Type N when done, S to skip:"
     java_code = get_multiline_input
 
     if java_code.length > 0
         java_file_name = problem_name.split(" ").join("") + ".java"
-        create_file("java/src/leetcode/easy/", java_file_name, java_code)
-        puts "\nWrote to java/src/leetcode/easy/#{java_file_name}"
+        create_file("java/src/leetcode/#{DIFFICULTIES[difficulty]}/", java_file_name, java_code)
+        puts "\nWrote to java/src/leetcode/#{DIFFICULTIES[difficulty]}/#{java_file_name}"
     end
 
     puts "\nPaste Javascript code; Type N when done, S to skip:"
@@ -38,8 +43,8 @@ def init
 
     if javascript_code.length > 0
         javascript_file_name = (problem_name[0].downcase + problem_name[1, problem_name.length-1]).split(" ").join("") + ".js"
-        create_file("javascript/easy/", javascript_file_name, javascript_code)
-        puts "\nWrote to javascript/easy/#{javascript_file_name}"
+        create_file("javascript/#{DIFFICULTIES[difficulty]}/", javascript_file_name, javascript_code)
+        puts "\nWrote to javascript/#{DIFFICULTIES[difficulty]}/#{javascript_file_name}"
     end
 
     puts "\nPaste Ruby code; Type N when done, S to skip:"
@@ -47,8 +52,14 @@ def init
 
     if ruby_code.length > 0
         ruby_file_name = problem_name.split(" ").join("_").downcase + ".rb"
-        create_file("ruby/easy/", ruby_file_name, ruby_code)
-        puts "\nWrote to ruby/easy/#{ruby_file_name}"
+        create_file("ruby/#{DIFFICULTIES[difficulty]}/", ruby_file_name, ruby_code)
+        puts "\nWrote to ruby/#{DIFFICULTIES[difficulty]}/#{ruby_file_name}"
+    end
+
+    File.open("README.md", "a") do |f|
+        temp = DIFFICULTIES[difficulty]
+        difficulty_level = temp[0].upcase + temp[1, temp.length-1]
+        f.write("#{problem_no}|#{problem_name}|}|#{difficulty_level}|\n")
     end
 
     puts "\nExcellent! Do you want to commit to Git? (Y/N)"
