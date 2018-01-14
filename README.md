@@ -2,6 +2,9 @@
 
 Leetcode solutions in Java for 300+ problems[Solutions are being added].
 
+## License
+[MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
+
 ## Easy
 
 | # | Title | Difficulty |
@@ -102,7 +105,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 389|Find the Difference|Easy|
 404|Sum of Left Leaves|Easy|
 414|Third Maximum Number|Easy|
-
-## License
-[MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
-409|Longest Palindrome|}|Easy|
+409|Longest Palindrome|Easy|

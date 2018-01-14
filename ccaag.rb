@@ -59,7 +59,7 @@ def init
     File.open("README.md", "a") do |f|
         temp = DIFFICULTIES[difficulty]
         difficulty_level = temp[0].upcase + temp[1, temp.length-1]
-        f.write("#{problem_no}|#{problem_name}|}|#{difficulty_level}|\n")
+        f.write("#{problem_no}|#{problem_name}|#{difficulty_level}|\n")
     end
 
     puts "\nExcellent! Do you want to commit to Git? (Y/N)"
