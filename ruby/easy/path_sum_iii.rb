@@ -28,4 +28,3 @@ def count_paths(root, sum, running_sum, map)
     end
     return count
 end
-
