@@ -120,3 +120,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 463|Island Perimeter|Easy|
 476|Number Complement|Easy|
 482|License Key Formatting|Easy|
+485|Max Consecutive Ones|Easy|
