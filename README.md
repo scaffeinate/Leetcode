@@ -112,3 +112,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 434|Number of Segments in a String|Easy|
 437|Path Sum III|Easy|
 438|Find All Anagrams In A String|Easy|
+443|String Compression|Easy|
