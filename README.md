@@ -108,3 +108,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 409|Longest Palindrome|Easy|
 412|Fizz Buzz|Easy|
 415|Add Strings|Easy|
+422|Valid Word Square|Easy|
