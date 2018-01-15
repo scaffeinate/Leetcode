@@ -115,3 +115,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 443|String Compression|Easy|
 448|Find All Numbers Disappeared In An Array|Easy|
 455|Assign Cookies|Easy|
+459|Repeated Substring Pattern|Easy|
