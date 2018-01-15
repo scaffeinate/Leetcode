@@ -124,3 +124,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 492|Construct the Rectangle|Easy|
 500|Keyboard Row|Easy|
 506|Relative Ranks|Easy|
+504|Base 7|Easy|
