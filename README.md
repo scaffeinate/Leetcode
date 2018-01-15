@@ -123,3 +123,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 485|Max Consecutive Ones|Easy|
 492|Construct the Rectangle|Easy|
 500|Keyboard Row|Easy|
+506|Relative Ranks|Easy|
