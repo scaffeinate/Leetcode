@@ -109,3 +109,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 412|Fizz Buzz|Easy|
 415|Add Strings|Easy|
 422|Valid Word Square|Easy|
+434|Number of Segments in a String|Easy|
