@@ -128,3 +128,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 405|Convert A Number To Hexadecimal|Easy|
 507|Perfect Number|Easy|
 520|Detect Capital|Easy|
+521|Longest Uncommon Subsequence I|Easy|
