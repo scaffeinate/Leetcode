@@ -131,3 +131,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 521|Longest Uncommon Subsequence I|Easy|
 530|Minimum Absolute Difference In BST|Easy|
 532|K-Diff Pairs In An Array|Easy|
+538|Convert BST To Greater Tree|Easy|
