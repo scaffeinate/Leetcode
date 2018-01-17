@@ -21,4 +21,3 @@ var findDiameter = function(root) {
     const diameter = Math.max(left.diameter, right.diameter, (left.depth+right.depth));
     return { diameter: diameter, depth: depth };
 };
-M
