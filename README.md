@@ -136,3 +136,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 543|Diameter Of Binary Tree|Easy|
 551|Student Attendance Record I|Easy|
 557|Reverse Words In A String III|Easy|
+561|Array Partition I|Easy|
