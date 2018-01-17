@@ -133,3 +133,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 532|K-Diff Pairs In An Array|Easy|
 538|Convert BST To Greater Tree|Easy|
 541|Reverse String II|Easy|
+543|Diameter Of Binary Tree|Easy|
