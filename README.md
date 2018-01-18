@@ -138,3 +138,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 557|Reverse Words In A String III|Easy|
 561|Array Partition I|Easy|
 563|Binary Tree Tilt|Easy|
+566|Reshape The Matrix|Easy|
