@@ -143,3 +143,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 575|Distribute Candies|Easy|
 598|Range Addition II|Easy|
 599|Minimum Index Sum Of Two Lists|Easy|
+604|Design Compressed String Iterator|Easy|
