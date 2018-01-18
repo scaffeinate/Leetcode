@@ -147,3 +147,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 605|Can Place Flowers|Easy|
 606|Construct String From Binary Tree|Easy|
 617|Merge Two Binary Trees|Easy|
+624|Maximum Distance In Arrays|Easy|
