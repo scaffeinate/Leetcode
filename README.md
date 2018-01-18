@@ -150,3 +150,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 624|Maximum Distance In Arrays|Easy|
 628|Maximum Product Of Three Numbers|Easy|
 633|Sum Of Square Numbers|Easy|
+637|Average Of Levels In Binary Tree|Easy|
