@@ -154,3 +154,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 643|Maximum Average Subarray I|Easy|
 645|Set Mismatch|Easy|
 653|Two Sum IV|Easy|
+696|Count Binary Substrings|Easy|
