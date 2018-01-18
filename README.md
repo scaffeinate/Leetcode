@@ -148,3 +148,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 606|Construct String From Binary Tree|Easy|
 617|Merge Two Binary Trees|Easy|
 624|Maximum Distance In Arrays|Easy|
+628|Maximum Product Of Three Numbers|Easy|
