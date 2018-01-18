@@ -139,3 +139,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 561|Array Partition I|Easy|
 563|Binary Tree Tilt|Easy|
 566|Reshape The Matrix|Easy|
+572|Subtree Of Another Tree|Easy|
