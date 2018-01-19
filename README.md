@@ -158,3 +158,4 @@ Leetcode solutions in Java for 300+ problems[Solutions are being added].
 657|Judge Route Circle|Easy|
 661|Image Smoother|Easy|
 669|Trim A Binary Search Tree|Easy|
+671|Second Minimum Node In A Binary Tree|Easy|
