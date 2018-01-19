@@ -59,7 +59,7 @@ def update
     files_map = {}
     
     java_files.each do |file|
-        #update_class_name(file)
+        update_class_name(file)
         name = normalize_name(file)
         files_map[name] = [file]
     end
@@ -82,8 +82,22 @@ def update
         end
     end
 
-    files_map.each do |k,v|
-        p v if(v.length < 3)
+    read_me_content = File.read("README.md")
+    lines = read_me_content.split("\n")
+    final_content = ""
+    lines.each do |line|
+        parts = line.split("|")
+        final_content += line
+        values = files_map[parts[1]]
+        values.each do |value|
+            ext = File.extname value
+            temp = ext[1, ext.length-1]
+            final_content += "[#{temp}](https://github.com/scaffeinate/leetcode/blob/master/#{value}),"
+        end
+        final_content += "|\n"
+    end
+    File.open("N_README.md", "a") do |f|
+        f.write final_content
     end
 end
 

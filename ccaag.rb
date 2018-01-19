@@ -70,7 +70,7 @@ def init
         java_url = "#{BASE_URL}/#{java_file_path}"
         javascript_url = "#{BASE_URL}/#{javascript_file_path}"
         ruby_url = "#{BASE_URL}/#{ruby_file_path}"
-        f.write("#{problem_no}|#{problem_name}|#{difficulty_level}|[#{java_file_name}](#{java_url})|[#{javascript_file_name}](#{javascript_url})|[#{ruby_file_name}](#{ruby_url})|\n")
+        f.write("#{problem_no}|#{problem_name}|#{difficulty_level}|[java](#{java_url}),[js](#{javascript_url})|[rb](#{ruby_url})|\n")
     end
 
     puts "\nExcellent! Do you want to commit to Git? (Y/N)"
