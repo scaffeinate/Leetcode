@@ -1,7 +1,7 @@
 require 'git'
 
 DIFFICULTIES = ['easy', 'medium', 'hard']
-BASE_URL = "https://github.com/scaffeinate/leetcode"
+BASE_URL = "https://github.com/scaffeinate/leetcode/blob/master"
 
 def get_multiline_input
   input = ""
