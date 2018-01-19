@@ -1,163 +1,161 @@
 # Leetcode
 
-Leetcode solutions in Java for 300+ problems[Solutions are being added].
+Leetcode solutions in Java for 400+ problems[Solutions are being added]
 
 ## License
 [MIT](https://github.com/scaffeinate/leetcode/blob/master/LICENSE)
 
 ## Easy
 
-| # | Title | Difficulty |
-|---| ----- | ---------- |
-1|Two Sum|Easy|
-7|Reverse Integer|Easy|
-9|Palindrome Number|Easy|
-13|Roman to Integer|Easy|
-14|Longest Common Prefix|Easy|
-20|Valid Parentheses|Easy|
-21|Merge Two Sorted Lists|Easy|
-26|Remove Duplicates from Sorted Array|Easy|
-27|Remove Element|Easy|
-28|Implement strStr()|Easy|
-35|Search Insert Position|Easy|
-38|Count and Say|Easy|
-53|Maximum Subarray|Easy|
-58|Length of Last Word|Easy|
-66|Plus One|Easy|
-67|Add Binary|Easy|
-69|Sqrt(x)|Easy|
-70|Climbing Stairs|Easy|
-83|Remove Duplicates from Sorted List|Easy|
-88|Merge Sorted Array|Easy|
-100|Same Tree|Easy|
-101|Symmetric Tree|Easy|
-104|Maximum Depth of Binary Tree|Easy|
-107|Binary Tree Level Order Traversal II|Easy|
-108|Convert Sorted Array to Binary Search Tree|Easy|
-110|Balanced Binary Tree|Easy|
-111|Minimum Depth of Binary Tree|Easy|
-112|Path Sum|Easy|
-118|Pascal's Triangle|Easy|
-119|Pascal's Triangle II|Easy|
-121|Best Time to Buy and Sell Stock|Easy|
-122|Best Time to Buy and Sell Stock II|Easy|
-125|Valid Palindrome|Easy|
-136|Single Number|Easy|
-141|Linked List Cycle|Easy|
-155|Min Stack|Easy|
-160|Intersection of Two Linked Lists|Easy|
-167|Two Sum II - Input array is sorted|Easy|
-168|Excel Sheet Column Title|Easy|
-169|Majority Element|Easy|
-170|Two Sum III - Data structure design|Easy|
-171|Excel Sheet Column Number|Easy|
-172|Factorial Trailing Zeroes|Easy|
-189|Rotate Array|Easy|
-190|Reverse Bits|Easy|
-191|Number of 1 Bits|Easy|
-198|House Robber|Easy|
-202|Happy Number|Easy|
-203|Remove Linked List Elements|Easy|
-204|Count Primes|Easy|
-205|Isomorphic Strings|Easy|
-206|Reverse Linked List|Easy|
-217|Contains Duplicate|Easy|
-219|Contains Duplicate II|Easy|
-225|Implement Stack using Queues|Easy|
-226|Invert Binary Tree|Easy|
-231|Power of Two|Easy|
-232|Implement Queue using Stacks|Easy|
-234|Palindrome Linked List|Easy|
-235|Lowest Common Ancestor of a Binary Search Tree|Easy|
-237|Delete Node in a Linked List|Easy|
-242|Valid Anagram|Easy|
-243|Shortest Word Distance|Easy|
-246|Strobogrammatic Number|Easy|
-252|Meeting Rooms|Easy|
-256|Paint House|Easy|
-257|Binary Tree Paths|Easy|
-258|Add Digits|Easy|
-263|Ugly Number|Easy|
-266|Palindrome Permutation|Easy|
-268|Missing Number|Easy|
-270|Closest Binary Search Tree Value|Easy|
-276|Paint Fence|Easy|
-278|First Bad Version|Easy|
-283|Move Zeroes|Easy|
-290|Word Pattern|Easy|
-292|Nim Game|Easy|
-293|Flip Game|Easy|
-303|Range Sum Query - Immutable|Easy|
-326|Power of Three|Easy|
-339|Nested List Weight Sum|Easy|
-342|Power of Four|Easy|
-344|Reverse String|Easy|
-345|Reverse Vowels of a String|Easy|
-346|Moving Average from Data Stream|Easy|
-349|Intersection of Two Arrays|Easy|
-350|Intersection of Two Arrays II|Easy|
-359|Logger Rate Limiter|Easy|
-367|Valid Perfect Square|Easy|
-371|Sum of Two Integers|Easy|
-374|Guess Number Higher or Lower|Easy|
-383|Ransom Note|Easy|
-387|First Unique Character in a String|Easy|
-389|Find the Difference|Easy|
-404|Sum of Left Leaves|Easy|
-414|Third Maximum Number|Easy|
-409|Longest Palindrome|Easy|
-412|Fizz Buzz|Easy|
-415|Add Strings|Easy|
-422|Valid Word Square|Easy|
-434|Number of Segments in a String|Easy|
-437|Path Sum III|Easy|
-438|Find All Anagrams In A String|Easy|
-443|String Compression|Easy|
-448|Find All Numbers Disappeared In An Array|Easy|
-455|Assign Cookies|Easy|
-459|Repeated Substring Pattern|Easy|
-461|Hamming Distance|Easy|
-463|Island Perimeter|Easy|
-476|Number Complement|Easy|
-482|License Key Formatting|Easy|
-485|Max Consecutive Ones|Easy|
-492|Construct the Rectangle|Easy|
-500|Keyboard Row|Easy|
-506|Relative Ranks|Easy|
-504|Base 7|Easy|
-405|Convert A Number To Hexadecimal|Easy|
-507|Perfect Number|Easy|
-520|Detect Capital|Easy|
-521|Longest Uncommon Subsequence I|Easy|
-530|Minimum Absolute Difference In BST|Easy|
-532|K-Diff Pairs In An Array|Easy|
-538|Convert BST To Greater Tree|Easy|
-541|Reverse String II|Easy|
-543|Diameter Of Binary Tree|Easy|
-551|Student Attendance Record I|Easy|
-557|Reverse Words In A String III|Easy|
-561|Array Partition I|Easy|
-563|Binary Tree Tilt|Easy|
-566|Reshape The Matrix|Easy|
-572|Subtree Of Another Tree|Easy|
-575|Distribute Candies|Easy|
-598|Range Addition II|Easy|
-599|Minimum Index Sum Of Two Lists|Easy|
-604|Design Compressed String Iterator|Easy|
-605|Can Place Flowers|Easy|
-606|Construct String From Binary Tree|Easy|
-617|Merge Two Binary Trees|Easy|
-624|Maximum Distance In Arrays|Easy|
-628|Maximum Product Of Three Numbers|Easy|
-633|Sum Of Square Numbers|Easy|
-637|Average Of Levels In Binary Tree|Easy|
-643|Maximum Average Subarray I|Easy|
-645|Set Mismatch|Easy|
-653|Two Sum IV|Easy|
-696|Count Binary Substrings|Easy|
-657|Judge Route Circle|Easy|
-661|Image Smoother|Easy|
-669|Trim A Binary Search Tree|Easy|
-671|Second Minimum Node In A Binary Tree|Easy|
-674|Longest Continuous Increasing Subsequence|Easy|
-680|Valid Palindrome II|Easy|
+| # | Title | Java | Javascript | Ruby |
+|---| ----- | ---- | ---------- | ---- |
+1|Two Sum|[TwoSum.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/TwoSum.java)|[twoSum.js](https://github.com/scaffeinate/leetcode/javascript/easy/twoSum.js)|[two_sum.rb](https://github.com/scaffeinate/leetcode/ruby/easy/two_sum.rb)|
+7|Reverse Integer|[ReverseInteger.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ReverseInteger.java)|[reverseInteger.js](https://github.com/scaffeinate/leetcode/javascript/easy/reverseInteger.js)|[reverse_integer.rb](https://github.com/scaffeinate/leetcode/ruby/easy/reverse_integer.rb)|
+9|Palindrome Number|[PalindromeNumber.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PalindromeNumber.java)|[palindromeNumber.js](https://github.com/scaffeinate/leetcode/javascript/easy/palindromeNumber.js)|[palindrome_number.rb](https://github.com/scaffeinate/leetcode/ruby/easy/palindrome_number.rb)|
+13|Roman To Integer|[RomanToInteger.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/RomanToInteger.java)|[romanToInteger.js](https://github.com/scaffeinate/leetcode/javascript/easy/romanToInteger.js)|[roman_to_integer.rb](https://github.com/scaffeinate/leetcode/ruby/easy/roman_to_integer.rb)|
+14|Longest Common Prefix|[LongestCommonPrefix.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/LongestCommonPrefix.java)|[longestCommonPrefix.js](https://github.com/scaffeinate/leetcode/javascript/easy/longestCommonPrefix.js)|[longest_common_prefix.rb](https://github.com/scaffeinate/leetcode/ruby/easy/longest_common_prefix.rb)|
+20|Valid Parentheses|[ValidParentheses.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ValidParentheses.java)|[validParentheses.js](https://github.com/scaffeinate/leetcode/javascript/easy/validParentheses.js)|[valid_parentheses.rb](https://github.com/scaffeinate/leetcode/ruby/easy/valid_parentheses.rb)|
+21|Merge Two Sorted Lists|[MergeTwoSortedLists.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MergeTwoSortedLists.java)|[mergeTwoSortedLists.js](https://github.com/scaffeinate/leetcode/javascript/easy/mergeTwoSortedLists.js)|[merge_two_sorted_lists.rb](https://github.com/scaffeinate/leetcode/ruby/easy/merge_two_sorted_lists.rb)|
+26|Remove Duplicates From Sorted Array|[RemoveDuplicatesFromSortedArray.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/RemoveDuplicatesFromSortedArray.java)|[removeDuplicatesFromSortedArray.js](https://github.com/scaffeinate/leetcode/javascript/easy/removeDuplicatesFromSortedArray.js)|[remove_duplicates_from_sorted_array.rb](https://github.com/scaffeinate/leetcode/ruby/easy/remove_duplicates_from_sorted_array.rb)|
+27|Remove Element|[RemoveElement.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/RemoveElement.java)|[removeElement.js](https://github.com/scaffeinate/leetcode/javascript/easy/removeElement.js)|[remove_element.rb](https://github.com/scaffeinate/leetcode/ruby/easy/remove_element.rb)|
+28|Implement Str Str|[ImplementStrStr.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ImplementStrStr.java)|[implementStrStr.js](https://github.com/scaffeinate/leetcode/javascript/easy/implementStrStr.js)|[implement_str_str.rb](https://github.com/scaffeinate/leetcode/ruby/easy/implement_str_str.rb)|
+35|Search Insert Position|[SearchInsertPosition.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/SearchInsertPosition.java)|[searchInsertPosition.js](https://github.com/scaffeinate/leetcode/javascript/easy/searchInsertPosition.js)|[search_insert_position.rb](https://github.com/scaffeinate/leetcode/ruby/easy/search_insert_position.rb)|
+38|Count And Say|[CountAndSay.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/CountAndSay.java)|[countAndSay.js](https://github.com/scaffeinate/leetcode/javascript/easy/countAndSay.js)|[count_and_say.rb](https://github.com/scaffeinate/leetcode/ruby/easy/count_and_say.rb)|
+53|Maximum Sub Array|[MaximumSubArray.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MaximumSubArray.java)|[maximumSubArray.js](https://github.com/scaffeinate/leetcode/javascript/easy/maximumSubArray.js)|[maximum_sub_array.rb](https://github.com/scaffeinate/leetcode/ruby/easy/maximum_sub_array.rb)|
+58|Length Of Last Word|[LengthOfLastWord.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/LengthOfLastWord.java)|[lengthOfLastWord.js](https://github.com/scaffeinate/leetcode/javascript/easy/lengthOfLastWord.js)|[length_of_last_word.rb](https://github.com/scaffeinate/leetcode/ruby/easy/length_of_last_word.rb)|
+66|Plus One|[PlusOne.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PlusOne.java)|[plusOne.js](https://github.com/scaffeinate/leetcode/javascript/easy/plusOne.js)|[plus_one.rb](https://github.com/scaffeinate/leetcode/ruby/easy/plus_one.rb)|
+67|Add Binary|[AddBinary.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/AddBinary.java)|[addBinary.js](https://github.com/scaffeinate/leetcode/javascript/easy/addBinary.js)|[add_binary.rb](https://github.com/scaffeinate/leetcode/ruby/easy/add_binary.rb)|
+69|Sqrt X|[SqrtX.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/SqrtX.java)|[sqrtX.js](https://github.com/scaffeinate/leetcode/javascript/easy/sqrtX.js)|[sqrt_x.rb](https://github.com/scaffeinate/leetcode/ruby/easy/sqrt_x.rb)|
+70|Climbing Stairs|[ClimbingStairs.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ClimbingStairs.java)|[climbingStairs.js](https://github.com/scaffeinate/leetcode/javascript/easy/climbingStairs.js)|[climbing_stairs.rb](https://github.com/scaffeinate/leetcode/ruby/easy/climbing_stairs.rb)|
+83|Remove Duplicates From Sorted List|[RemoveDuplicatesFromSortedList.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/RemoveDuplicatesFromSortedList.java)|[removeDuplicatesFromSortedList.js](https://github.com/scaffeinate/leetcode/javascript/easy/removeDuplicatesFromSortedList.js)|[remove_duplicates_from_sorted_list.rb](https://github.com/scaffeinate/leetcode/ruby/easy/remove_duplicates_from_sorted_list.rb)|
+88|Merge Sorted Array|[MergeSortedArray.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MergeSortedArray.java)|[mergeSortedArray.js](https://github.com/scaffeinate/leetcode/javascript/easy/mergeSortedArray.js)|[merge_sorted_array.rb](https://github.com/scaffeinate/leetcode/ruby/easy/merge_sorted_array.rb)|
+100|Same Tree|[SameTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/SameTree.java)|[sameTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/sameTree.js)|[same_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/same_tree.rb)|
+101|Symmetric Tree|[SymmetricTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/SymmetricTree.java)|[symmetricTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/symmetricTree.js)|[symmetric_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/symmetric_tree.rb)|
+104|Maximum Depth Of Binary Tree|[MaximumDepthOfBinaryTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MaximumDepthOfBinaryTree.java)|[maximumDepthOfBinaryTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/maximumDepthOfBinaryTree.js)|[maximum_depth_of_binary_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/maximum_depth_of_binary_tree.rb)|
+107|Binary Level Order Traversal II|[BinaryLevelOrderTraversalII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/BinaryLevelOrderTraversalII.java)|[binaryLevelOrderTraversalII.js](https://github.com/scaffeinate/leetcode/javascript/easy/binaryLevelOrderTraversalII.js)|[binary_level_order_traversal_ii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/binary_level_order_traversal_ii.rb)|
+108|Convert Sorted Array To Binary Search Tree|[ConvertSortedArrayToBinarySearchTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ConvertSortedArrayToBinarySearchTree.java)|[convertSortedArrayToBinarySearchTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/convertSortedArrayToBinarySearchTree.js)|[convert_sorted_array_to_binary_search_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/convert_sorted_array_to_binary_search_tree.rb)|
+110|Balanced Binary Tree|[BalancedBinaryTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/BalancedBinaryTree.java)|[balancedBinaryTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/balancedBinaryTree.js)|[balanced_binary_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/balanced_binary_tree.rb)|
+111|Minimum Depth Of Binary Tree|[MinimumDepthOfBinaryTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MinimumDepthOfBinaryTree.java)|[minimumDepthOfBinaryTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/minimumDepthOfBinaryTree.js)|[minimum_depth_of_binary_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/minimum_depth_of_binary_tree.rb)|
+112|Path Sum|[PathSum.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PathSum.java)|[pathSum.js](https://github.com/scaffeinate/leetcode/javascript/easy/pathSum.js)|[path_sum.rb](https://github.com/scaffeinate/leetcode/ruby/easy/path_sum.rb)|
+118|Pascals Triangle|[PascalsTriangle.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PascalsTriangle.java)|[pascalsTriangle.js](https://github.com/scaffeinate/leetcode/javascript/easy/pascalsTriangle.js)|[pascals_triangle.rb](https://github.com/scaffeinate/leetcode/ruby/easy/pascals_triangle.rb)|
+119|Pascals Triangle II|[PascalsTriangleII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PascalsTriangleII.java)|[pascalsTriangleII.js](https://github.com/scaffeinate/leetcode/javascript/easy/pascalsTriangleII.js)|[pascals_triangle_ii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/pascals_triangle_ii.rb)|
+121|Best Time To Buy And Sell Stock|[BestTimeToBuyAndSellStock.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/BestTimeToBuyAndSellStock.java)|[bestTimeToBuyAndSellStock.js](https://github.com/scaffeinate/leetcode/javascript/easy/bestTimeToBuyAndSellStock.js)|[best_time_to_buy_and_sell_stock.rb](https://github.com/scaffeinate/leetcode/ruby/easy/best_time_to_buy_and_sell_stock.rb)|
+122|Best Time To Buy And Sell Stock II|[BestTimeToBuyAndSellStockII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/BestTimeToBuyAndSellStockII.java)|[bestTimeToBuyAndSellStockII.js](https://github.com/scaffeinate/leetcode/javascript/easy/bestTimeToBuyAndSellStockII.js)|[best_time_to_buy_and_sell_stock_ii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/best_time_to_buy_and_sell_stock_ii.rb)|
+125|Valid Palindrome|[ValidPalindrome.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ValidPalindrome.java)|[validPalindrome.js](https://github.com/scaffeinate/leetcode/javascript/easy/validPalindrome.js)|[valid_palindrome.rb](https://github.com/scaffeinate/leetcode/ruby/easy/valid_palindrome.rb)|
+136|Single Number|[SingleNumber.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/SingleNumber.java)|[singleNumber.js](https://github.com/scaffeinate/leetcode/javascript/easy/singleNumber.js)|[single_number.rb](https://github.com/scaffeinate/leetcode/ruby/easy/single_number.rb)|
+141|Linked List Cycle|[LinkedListCycle.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/LinkedListCycle.java)|[linkedListCycle.js](https://github.com/scaffeinate/leetcode/javascript/easy/linkedListCycle.js)||
+155|Min Stack|[MinStack.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MinStack.java)|[minStack.js](https://github.com/scaffeinate/leetcode/javascript/easy/minStack.js)|[min_stack.rb](https://github.com/scaffeinate/leetcode/ruby/easy/min_stack.rb)|
+160|Intersection Of Two Linked Lists|[IntersectionOfTwoLinkedLists.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/IntersectionOfTwoLinkedLists.java)|[intersectionOfTwoLinkedLists.js](https://github.com/scaffeinate/leetcode/javascript/easy/intersectionOfTwoLinkedLists.js)||
+167|Two Sum II|[TwoSumII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/TwoSumII.java)|[twoSumII.js](https://github.com/scaffeinate/leetcode/javascript/easy/twoSumII.js)|[two_sum_ii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/two_sum_ii.rb)|
+168|Excel Sheet Column Title|[ExcelSheetColumnTitle.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ExcelSheetColumnTitle.java)|[excelSheetColumnTitle.js](https://github.com/scaffeinate/leetcode/javascript/easy/excelSheetColumnTitle.js)|[excel_sheet_column_title.rb](https://github.com/scaffeinate/leetcode/ruby/easy/excel_sheet_column_title.rb)|
+169|Majority Element|[MajorityElement.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MajorityElement.java)|[majorityElement.js](https://github.com/scaffeinate/leetcode/javascript/easy/majorityElement.js)|[majority_element.rb](https://github.com/scaffeinate/leetcode/ruby/easy/majority_element.rb)|
+170|Two Sum III|[TwoSumIII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/TwoSumIII.java)|[twoSumIII.js](https://github.com/scaffeinate/leetcode/javascript/easy/twoSumIII.js)|[two_sum_iii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/two_sum_iii.rb)|
+171|Excel Sheet Column Number|[ExcelSheetColumnNumber.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ExcelSheetColumnNumber.java)|[excelSheetColumnNumber.js](https://github.com/scaffeinate/leetcode/javascript/easy/excelSheetColumnNumber.js)|[excel_sheet_column_number.rb](https://github.com/scaffeinate/leetcode/ruby/easy/excel_sheet_column_number.rb)|
+172|Factorial Trailing Zeros|[FactorialTrailingZeros.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/FactorialTrailingZeros.java)|||
+189|Rotate Array|[RotateArray.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/RotateArray.java)|[rotateArray.js](https://github.com/scaffeinate/leetcode/javascript/easy/rotateArray.js)|[rotate_array.rb](https://github.com/scaffeinate/leetcode/ruby/easy/rotate_array.rb)|
+190|Reverse Bits|[ReverseBits.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ReverseBits.java)|[reverseBits.js](https://github.com/scaffeinate/leetcode/javascript/easy/reverseBits.js)|[reverse_bits.rb](https://github.com/scaffeinate/leetcode/ruby/easy/reverse_bits.rb)|
+191|Number Of 1 Bits|[NumberOf1Bits.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/NumberOf1Bits.java)|[numberOf1Bits.js](https://github.com/scaffeinate/leetcode/javascript/easy/numberOf1Bits.js)|[number_of_1_bits.rb](https://github.com/scaffeinate/leetcode/ruby/easy/number_of_1_bits.rb)|
+198|House Robber|[HouseRobber.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/HouseRobber.java)|[houseRobber.js](https://github.com/scaffeinate/leetcode/javascript/easy/houseRobber.js)|[house_robber.rb](https://github.com/scaffeinate/leetcode/ruby/easy/house_robber.rb)|
+202|Happy Number|[HappyNumber.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/HappyNumber.java)|[happyNumber.js](https://github.com/scaffeinate/leetcode/javascript/easy/happyNumber.js)|[happy_number.rb](https://github.com/scaffeinate/leetcode/ruby/easy/happy_number.rb)|
+203|Remove Linked List Elements|[RemoveLinkedListElements.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/RemoveLinkedListElements.java)|[removeLinkedListElements.js](https://github.com/scaffeinate/leetcode/javascript/easy/removeLinkedListElements.js)|[remove_linked_list_elements.rb](https://github.com/scaffeinate/leetcode/ruby/easy/remove_linked_list_elements.rb)|
+204|Count Primes|[CountPrimes.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/CountPrimes.java)|[countPrimes.js](https://github.com/scaffeinate/leetcode/javascript/easy/countPrimes.js)|[count_primes.rb](https://github.com/scaffeinate/leetcode/ruby/easy/count_primes.rb)|
+205|Isomorphic Strings|[IsomorphicStrings.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/IsomorphicStrings.java)|[isomorphicStrings.js](https://github.com/scaffeinate/leetcode/javascript/easy/isomorphicStrings.js)|[isomorphic_strings.rb](https://github.com/scaffeinate/leetcode/ruby/easy/isomorphic_strings.rb)|
+206|Reverse Linked List|[ReverseLinkedList.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ReverseLinkedList.java)|[reverseLinkedList.js](https://github.com/scaffeinate/leetcode/javascript/easy/reverseLinkedList.js)|[reverse_linked_list.rb](https://github.com/scaffeinate/leetcode/ruby/easy/reverse_linked_list.rb)|
+217|Contains Duplicate|[ContainsDuplicate.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ContainsDuplicate.java)|[containsDuplicate.js](https://github.com/scaffeinate/leetcode/javascript/easy/containsDuplicate.js)|[contains_duplicate.rb](https://github.com/scaffeinate/leetcode/ruby/easy/contains_duplicate.rb)|
+219|Contains Duplicate II|[ContainsDuplicateII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ContainsDuplicateII.java)|[containsDuplicateII.js](https://github.com/scaffeinate/leetcode/javascript/easy/containsDuplicateII.js)|[contains_duplicate_ii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/contains_duplicate_ii.rb)|
+225|Implement Stack Using Queues|[ImplementStackUsingQueues.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ImplementStackUsingQueues.java)|[implementStackUsingQueues.js](https://github.com/scaffeinate/leetcode/javascript/easy/implementStackUsingQueues.js)|[implement_stack_using_queues.rb](https://github.com/scaffeinate/leetcode/ruby/easy/implement_stack_using_queues.rb)|
+226|Invert Binary Tree|[InvertBinaryTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/InvertBinaryTree.java)|[invertBinaryTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/invertBinaryTree.js)|[invert_binary_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/invert_binary_tree.rb)|
+231|Power Of Two|[PowerOfTwo.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PowerOfTwo.java)|[powerOfTwo.js](https://github.com/scaffeinate/leetcode/javascript/easy/powerOfTwo.js)|[power_of_two.rb](https://github.com/scaffeinate/leetcode/ruby/easy/power_of_two.rb)|
+232|Implement Queue Using Stacks|[ImplementQueueUsingStacks.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ImplementQueueUsingStacks.java)|[implementQueueUsingStacks.js](https://github.com/scaffeinate/leetcode/javascript/easy/implementQueueUsingStacks.js)|[implement_queue_using_stacks.rb](https://github.com/scaffeinate/leetcode/ruby/easy/implement_queue_using_stacks.rb)|
+234|Palindrome Linked List|[PalindromeLinkedList.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PalindromeLinkedList.java)|[palindromeLinkedList.js](https://github.com/scaffeinate/leetcode/javascript/easy/palindromeLinkedList.js)|[palindrome_linked_list.rb](https://github.com/scaffeinate/leetcode/ruby/easy/palindrome_linked_list.rb)|
+235|Lowest Common Ancestor Of A BST|[LowestCommonAncestorOfABST.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/LowestCommonAncestorOfABST.java)|[lowestCommonAncestorOfABST.js](https://github.com/scaffeinate/leetcode/javascript/easy/lowestCommonAncestorOfABST.js)|[lowest_common_ancestor_of_a_bst.rb](https://github.com/scaffeinate/leetcode/ruby/easy/lowest_common_ancestor_of_a_bst.rb)|
+237|Delete Node In A Linked List|[DeleteNodeInALinkedList.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/DeleteNodeInALinkedList.java)|[deleteNodeInALinkedList.js](https://github.com/scaffeinate/leetcode/javascript/easy/deleteNodeInALinkedList.js)|[delete_node_in_a_linked_list.rb](https://github.com/scaffeinate/leetcode/ruby/easy/delete_node_in_a_linked_list.rb)|
+242|Valid Anagram|[ValidAnagram.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ValidAnagram.java)|[validAnagram.js](https://github.com/scaffeinate/leetcode/javascript/easy/validAnagram.js)|[valid_anagram.rb](https://github.com/scaffeinate/leetcode/ruby/easy/valid_anagram.rb)|
+243|Shortest Word Distance|[ShortestWordDistance.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ShortestWordDistance.java)|[shortestWordDistance.js](https://github.com/scaffeinate/leetcode/javascript/easy/shortestWordDistance.js)|[shortest_word_distance.rb](https://github.com/scaffeinate/leetcode/ruby/easy/shortest_word_distance.rb)|
+246|Strobogrammatic Number|[StrobogrammaticNumber.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/StrobogrammaticNumber.java)|[strobogrammaticNumber.js](https://github.com/scaffeinate/leetcode/javascript/easy/strobogrammaticNumber.js)|[strobogrammatic_number.rb](https://github.com/scaffeinate/leetcode/ruby/easy/strobogrammatic_number.rb)|
+252|Meeting Rooms|[MeetingRooms.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MeetingRooms.java)|[meetingRooms.js](https://github.com/scaffeinate/leetcode/javascript/easy/meetingRooms.js)|[meeting_rooms.rb](https://github.com/scaffeinate/leetcode/ruby/easy/meeting_rooms.rb)|
+256|Paint House|[PaintHouse.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PaintHouse.java)|[paintHouse.js](https://github.com/scaffeinate/leetcode/javascript/easy/paintHouse.js)|[paint_house.rb](https://github.com/scaffeinate/leetcode/ruby/easy/paint_house.rb)|
+257|Binary Tree Paths|[BinaryTreePaths.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/BinaryTreePaths.java)|[binaryTreePaths.js](https://github.com/scaffeinate/leetcode/javascript/easy/binaryTreePaths.js)|[binary_tree_paths.rb](https://github.com/scaffeinate/leetcode/ruby/easy/binary_tree_paths.rb)|
+258|Add Digits|[AddDigits.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/AddDigits.java)|[addDigits.js](https://github.com/scaffeinate/leetcode/javascript/easy/addDigits.js)|[add_digits.rb](https://github.com/scaffeinate/leetcode/ruby/easy/add_digits.rb)|
+263|Ugly Number|[UglyNumber.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/UglyNumber.java)|[uglyNumber.js](https://github.com/scaffeinate/leetcode/javascript/easy/uglyNumber.js)|[ugly_number.rb](https://github.com/scaffeinate/leetcode/ruby/easy/ugly_number.rb)|
+266|Palindrome Permutation|[PalindromePermutation.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PalindromePermutation.java)|[palindromePermutation.js](https://github.com/scaffeinate/leetcode/javascript/easy/palindromePermutation.js)|[palindrome_permutation.rb](https://github.com/scaffeinate/leetcode/ruby/easy/palindrome_permutation.rb)|
+268|Missing Number|[MissingNumber.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MissingNumber.java)|[missingNumber.js](https://github.com/scaffeinate/leetcode/javascript/easy/missingNumber.js)|[missing_number.rb](https://github.com/scaffeinate/leetcode/ruby/easy/missing_number.rb)|
+270|Closest Binary Search Tree Value|[ClosestBinarySearchTreeValue.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ClosestBinarySearchTreeValue.java)|[closestBinarySearchTreeValue.js](https://github.com/scaffeinate/leetcode/javascript/easy/closestBinarySearchTreeValue.js)|[closest_binary_search_tree_value.rb](https://github.com/scaffeinate/leetcode/ruby/easy/closest_binary_search_tree_value.rb)|
+278|First Bad Version|[FirstBadVersion.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/FirstBadVersion.java)|[firstBadVersion.js](https://github.com/scaffeinate/leetcode/javascript/easy/firstBadVersion.js)|[first_bad_version.rb](https://github.com/scaffeinate/leetcode/ruby/easy/first_bad_version.rb)|
+283|Move Zeros|[MoveZeros.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MoveZeros.java)|[moveZeros.js](https://github.com/scaffeinate/leetcode/javascript/easy/moveZeros.js)|[move_zeros.rb](https://github.com/scaffeinate/leetcode/ruby/easy/move_zeros.rb)|
+290|Word Pattern|[WordPattern.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/WordPattern.java)|[wordPattern.js](https://github.com/scaffeinate/leetcode/javascript/easy/wordPattern.js)|[word_pattern.rb](https://github.com/scaffeinate/leetcode/ruby/easy/word_pattern.rb)|
+293|Flip Game|[FlipGame.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/FlipGame.java)|[flipGame.js](https://github.com/scaffeinate/leetcode/javascript/easy/flipGame.js)|[flip_game.rb](https://github.com/scaffeinate/leetcode/ruby/easy/flip_game.rb)|
+303|Range Sum Query Immutable|[RangeSumQueryImmutable.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/RangeSumQueryImmutable.java)|[rangeSumQueryImmutable.js](https://github.com/scaffeinate/leetcode/javascript/easy/rangeSumQueryImmutable.js)|[range_sum_query_immutable.rb](https://github.com/scaffeinate/leetcode/ruby/easy/range_sum_query_immutable.rb)|
+326|Power Of Three|[PowerOfThree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PowerOfThree.java)|[powerOfThree.js](https://github.com/scaffeinate/leetcode/javascript/easy/powerOfThree.js)|[power_of_three.rb](https://github.com/scaffeinate/leetcode/ruby/easy/power_of_three.rb)|
+339|Nested List Weight Sum|[NestedListWeightSum.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/NestedListWeightSum.java)|[nestedListWeightSum.js](https://github.com/scaffeinate/leetcode/javascript/easy/nestedListWeightSum.js)|[nested_list_weight_sum.rb](https://github.com/scaffeinate/leetcode/ruby/easy/nested_list_weight_sum.rb)|
+342|Power Of Four|[PowerOfFour.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PowerOfFour.java)|[powerOfFour.js](https://github.com/scaffeinate/leetcode/javascript/easy/powerOfFour.js)|[power_of_four.rb](https://github.com/scaffeinate/leetcode/ruby/easy/power_of_four.rb)|
+344|Reverse String|[ReverseString.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ReverseString.java)|[reverseString.js](https://github.com/scaffeinate/leetcode/javascript/easy/reverseString.js)|[reverse_string.rb](https://github.com/scaffeinate/leetcode/ruby/easy/reverse_string.rb)|
+345|Reverse Vowels Of A String|[ReverseVowelsOfAString.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ReverseVowelsOfAString.java)|[reverseVowelsOfAString.js](https://github.com/scaffeinate/leetcode/javascript/easy/reverseVowelsOfAString.js)|[reverse_vowels_of_a_string.rb](https://github.com/scaffeinate/leetcode/ruby/easy/reverse_vowels_of_a_string.rb)|
+346|Moving Average From Data Stream|[MovingAverageFromDataStream.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MovingAverageFromDataStream.java)|[movingAverageFromDataStream.js](https://github.com/scaffeinate/leetcode/javascript/easy/movingAverageFromDataStream.js)|[moving_average_from_data_stream.rb](https://github.com/scaffeinate/leetcode/ruby/easy/moving_average_from_data_stream.rb)|
+349|Intersection Of Two Arrays|[IntersectionOfTwoArrays.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/IntersectionOfTwoArrays.java)|[intersectionOfTwoArrays.js](https://github.com/scaffeinate/leetcode/javascript/easy/intersectionOfTwoArrays.js)|[intersection_of_two_arrays.rb](https://github.com/scaffeinate/leetcode/ruby/easy/intersection_of_two_arrays.rb)|
+350|Intersection Of Two Arrays II|[IntersectionOfTwoArraysII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/IntersectionOfTwoArraysII.java)|[intersectionOfTwoArraysII.js](https://github.com/scaffeinate/leetcode/javascript/easy/intersectionOfTwoArraysII.js)|[intersection_of_two_arrays_ii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/intersection_of_two_arrays_ii.rb)|
+359|Logger Rate Limiter|[LoggerRateLimiter.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/LoggerRateLimiter.java)|[loggerRateLimiter.js](https://github.com/scaffeinate/leetcode/javascript/easy/loggerRateLimiter.js)|[logger_rate_limiter.rb](https://github.com/scaffeinate/leetcode/ruby/easy/logger_rate_limiter.rb)|
+367|Valid Perfect Square|[ValidPerfectSquare.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ValidPerfectSquare.java)|[validPerfectSquare.js](https://github.com/scaffeinate/leetcode/javascript/easy/validPerfectSquare.js)|[valid_perfect_square.rb](https://github.com/scaffeinate/leetcode/ruby/easy/valid_perfect_square.rb)|
+371|Sum Of Two Integers|[SumOfTwoIntegers.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/SumOfTwoIntegers.java)|[sumOfTwoIntegers.js](https://github.com/scaffeinate/leetcode/javascript/easy/sumOfTwoIntegers.js)||
+374|Guess Number Higher Or Lower|[GuessNumberHigherOrLower.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/GuessNumberHigherOrLower.java)|||
+383|Ransom Note|[RansomNote.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/RansomNote.java)|[ransomNote.js](https://github.com/scaffeinate/leetcode/javascript/easy/ransomNote.js)|[ransom_note.rb](https://github.com/scaffeinate/leetcode/ruby/easy/ransom_note.rb)|
+387|First Unique Character In A String|[FirstUniqueCharacterInAString.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/FirstUniqueCharacterInAString.java)|[firstUniqueCharacterInAString.js](https://github.com/scaffeinate/leetcode/javascript/easy/firstUniqueCharacterInAString.js)|[first_unique_character_in_a_string.rb](https://github.com/scaffeinate/leetcode/ruby/easy/first_unique_character_in_a_string.rb)|
+389|Find The Difference|[FindTheDifference.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/FindTheDifference.java)|[findTheDifference.js](https://github.com/scaffeinate/leetcode/javascript/easy/findTheDifference.js)|[find_the_difference.rb](https://github.com/scaffeinate/leetcode/ruby/easy/find_the_difference.rb)|
+404|Sum Of Left Leaves|[SumOfLeftLeaves.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/SumOfLeftLeaves.java)|[sumOfLeftLeaves.js](https://github.com/scaffeinate/leetcode/javascript/easy/sumOfLeftLeaves.js)|[sum_of_left_leaves.rb](https://github.com/scaffeinate/leetcode/ruby/easy/sum_of_left_leaves.rb)|
+414|Third Maximum Number|[ThirdMaximumNumber.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ThirdMaximumNumber.java)|||
+409|Longest Palindrome|[LongestPalindrome.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/LongestPalindrome.java)|[longestPalindrome.js](https://github.com/scaffeinate/leetcode/javascript/easy/longestPalindrome.js)|[longest_palindrome.rb](https://github.com/scaffeinate/leetcode/ruby/easy/longest_palindrome.rb)|
+412|Fizz Buzz|[FizzBuzz.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/FizzBuzz.java)|[fizzBuzz.js](https://github.com/scaffeinate/leetcode/javascript/easy/fizzBuzz.js)|[fizz_buzz.rb](https://github.com/scaffeinate/leetcode/ruby/easy/fizz_buzz.rb)|
+415|Add Strings|[AddStrings.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/AddStrings.java)|[addStrings.js](https://github.com/scaffeinate/leetcode/javascript/easy/addStrings.js)|[add_strings.rb](https://github.com/scaffeinate/leetcode/ruby/easy/add_strings.rb)|
+422|Valid Word Square|[ValidWordSquare.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ValidWordSquare.java)|[validWordSquare.js](https://github.com/scaffeinate/leetcode/javascript/easy/validWordSquare.js)|[valid_word_square.rb](https://github.com/scaffeinate/leetcode/ruby/easy/valid_word_square.rb)|
+434|Number Of Segments In A String|[NumberOfSegmentsInAString.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/NumberOfSegmentsInAString.java)|[numberOfSegmentsInAString.js](https://github.com/scaffeinate/leetcode/javascript/easy/numberOfSegmentsInAString.js)|[number_of_segments_in_a_string.rb](https://github.com/scaffeinate/leetcode/ruby/easy/number_of_segments_in_a_string.rb)|
+437|Path Sum III|[PathSumIII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PathSumIII.java)|[pathSumIII.js](https://github.com/scaffeinate/leetcode/javascript/easy/pathSumIII.js)|[path_sum_iii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/path_sum_iii.rb)|
+438|Find All Anagrams In A String|[FindAllAnagramsInAString.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/FindAllAnagramsInAString.java)|[findAllAnagramsInAString.js](https://github.com/scaffeinate/leetcode/javascript/easy/findAllAnagramsInAString.js)|[find_all_anagrams_in_a_string.rb](https://github.com/scaffeinate/leetcode/ruby/easy/find_all_anagrams_in_a_string.rb)|
+443|String Compression|[StringCompression.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/StringCompression.java)|[stringCompression.js](https://github.com/scaffeinate/leetcode/javascript/easy/stringCompression.js)|[string_compression.rb](https://github.com/scaffeinate/leetcode/ruby/easy/string_compression.rb)|
+448|Find All Numbers Disappeared In An Array|[FindAllNumbersDisappearedInAnArray.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/FindAllNumbersDisappearedInAnArray.java)|[findAllNumbersDisappearedInAnArray.js](https://github.com/scaffeinate/leetcode/javascript/easy/findAllNumbersDisappearedInAnArray.js)|[find_all_numbers_disappeared_in_an_array.rb](https://github.com/scaffeinate/leetcode/ruby/easy/find_all_numbers_disappeared_in_an_array.rb)|
+455|Assign Cookies|[AssignCookies.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/AssignCookies.java)|[assignCookies.js](https://github.com/scaffeinate/leetcode/javascript/easy/assignCookies.js)|[assign_cookies.rb](https://github.com/scaffeinate/leetcode/ruby/easy/assign_cookies.rb)|
+459|Repeated Substring Pattern|[RepeatedSubstringPattern.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/RepeatedSubstringPattern.java)|[repeatedSubstringPattern.js](https://github.com/scaffeinate/leetcode/javascript/easy/repeatedSubstringPattern.js)|[repeated_substring_pattern.rb](https://github.com/scaffeinate/leetcode/ruby/easy/repeated_substring_pattern.rb)|
+461|Hamming Distance|[HammingDistance.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/HammingDistance.java)|[hammingDistance.js](https://github.com/scaffeinate/leetcode/javascript/easy/hammingDistance.js)|[hamming_distance.rb](https://github.com/scaffeinate/leetcode/ruby/easy/hamming_distance.rb)|
+463|Island Perimeter|[IslandPerimeter.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/IslandPerimeter.java)|[islandPerimeter.js](https://github.com/scaffeinate/leetcode/javascript/easy/islandPerimeter.js)|[island_perimeter.rb](https://github.com/scaffeinate/leetcode/ruby/easy/island_perimeter.rb)|
+476|Number Complement|[NumberComplement.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/NumberComplement.java)|[numberComplement.js](https://github.com/scaffeinate/leetcode/javascript/easy/numberComplement.js)|[number_complement.rb](https://github.com/scaffeinate/leetcode/ruby/easy/number_complement.rb)|
+482|License Key Formatting|[LicenseKeyFormatting.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/LicenseKeyFormatting.java)|[licenseKeyFormatting.js](https://github.com/scaffeinate/leetcode/javascript/easy/licenseKeyFormatting.js)|[license_key_formatting.rb](https://github.com/scaffeinate/leetcode/ruby/easy/license_key_formatting.rb)|
+485|Max Consecutive Ones|[MaxConsecutiveOnes.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MaxConsecutiveOnes.java)|[maxConsecutiveOnes.js](https://github.com/scaffeinate/leetcode/javascript/easy/maxConsecutiveOnes.js)|[max_consecutive_ones.rb](https://github.com/scaffeinate/leetcode/ruby/easy/max_consecutive_ones.rb)|
+492|Construct The Rectangle|[ConstructTheRectangle.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ConstructTheRectangle.java)|[constructTheRectangle.js](https://github.com/scaffeinate/leetcode/javascript/easy/constructTheRectangle.js)|[construct_the_rectangle.rb](https://github.com/scaffeinate/leetcode/ruby/easy/construct_the_rectangle.rb)|
+500|Keyboard Row|[KeyboardRow.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/KeyboardRow.java)|[keyboardRow.js](https://github.com/scaffeinate/leetcode/javascript/easy/keyboardRow.js)|[keyboard_row.rb](https://github.com/scaffeinate/leetcode/ruby/easy/keyboard_row.rb)|
+506|Relative Ranks|[RelativeRanks.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/RelativeRanks.java)|[relativeRanks.js](https://github.com/scaffeinate/leetcode/javascript/easy/relativeRanks.js)|[relative_ranks.rb](https://github.com/scaffeinate/leetcode/ruby/easy/relative_ranks.rb)|
+504|Base 7|[Base7.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/Base7.java)|[base7.js](https://github.com/scaffeinate/leetcode/javascript/easy/base7.js)|[base_7.rb](https://github.com/scaffeinate/leetcode/ruby/easy/base_7.rb)|
+405|Convert A Number To Hexadecimal|[ConvertANumberToHexadecimal.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ConvertANumberToHexadecimal.java)|[convertANumberToHexadecimal.js](https://github.com/scaffeinate/leetcode/javascript/easy/convertANumberToHexadecimal.js)||
+507|Perfect Number|[PerfectNumber.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/PerfectNumber.java)|[perfectNumber.js](https://github.com/scaffeinate/leetcode/javascript/easy/perfectNumber.js)|[perfect_number.rb](https://github.com/scaffeinate/leetcode/ruby/easy/perfect_number.rb)|
+520|Detect Capital|[DetectCapital.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/DetectCapital.java)|[detectCapital.js](https://github.com/scaffeinate/leetcode/javascript/easy/detectCapital.js)|[detect_capital.rb](https://github.com/scaffeinate/leetcode/ruby/easy/detect_capital.rb)|
+521|Longest Uncommon Subsequence I|[LongestUncommonSubsequenceI.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/LongestUncommonSubsequenceI.java)|[longestUncommonSubsequenceI.js](https://github.com/scaffeinate/leetcode/javascript/easy/longestUncommonSubsequenceI.js)|[longest_uncommon_subsequence_i.rb](https://github.com/scaffeinate/leetcode/ruby/easy/longest_uncommon_subsequence_i.rb)|
+530|Minimum Absolute Difference In BST|[MinimumAbsoluteDifferenceInBST.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MinimumAbsoluteDifferenceInBST.java)|[minimumAbsoluteDifferenceInBST.js](https://github.com/scaffeinate/leetcode/javascript/easy/minimumAbsoluteDifferenceInBST.js)|[minimum_absolute_difference_in_bst.rb](https://github.com/scaffeinate/leetcode/ruby/easy/minimum_absolute_difference_in_bst.rb)|
+532|K Diff Pairs In An Array|[KDiffPairsInAnArray.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/KDiffPairsInAnArray.java)|[kDiffPairsInAnArray.js](https://github.com/scaffeinate/leetcode/javascript/easy/kDiffPairsInAnArray.js)|[k_diff_pairs_in_an_array.rb](https://github.com/scaffeinate/leetcode/ruby/easy/k_diff_pairs_in_an_array.rb)|
+538|Convert BST To Greater Tree|[ConvertBSTToGreaterTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ConvertBSTToGreaterTree.java)|[convertBSTToGreaterTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/convertBSTToGreaterTree.js)|[convert_bst_to_greater_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/convert_bst_to_greater_tree.rb)|
+541|Reverse String II|[ReverseStringII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ReverseStringII.java)|[reverseStringII.js](https://github.com/scaffeinate/leetcode/javascript/easy/reverseStringII.js)|[reverse_string_ii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/reverse_string_ii.rb)|
+543|Diameter Of Binary Tree|[DiameterOfBinaryTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/DiameterOfBinaryTree.java)|[diameterOfBinaryTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/diameterOfBinaryTree.js)|[diameter_of_binary_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/diameter_of_binary_tree.rb)|
+551|Student Attendance Record I|[StudentAttendanceRecordI.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/StudentAttendanceRecordI.java)|[studentAttendanceRecordI.js](https://github.com/scaffeinate/leetcode/javascript/easy/studentAttendanceRecordI.js)|[student_attendance_record_i.rb](https://github.com/scaffeinate/leetcode/ruby/easy/student_attendance_record_i.rb)|
+557|Reverse Words In A String III|[ReverseWordsInAStringIII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ReverseWordsInAStringIII.java)|[reverseWordsInAStringIII.js](https://github.com/scaffeinate/leetcode/javascript/easy/reverseWordsInAStringIII.js)|[reverse_words_in_a_string_iii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/reverse_words_in_a_string_iii.rb)|
+561|Array Partition I|[ArrayPartitionI.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ArrayPartitionI.java)|[arrayPartitionI.js](https://github.com/scaffeinate/leetcode/javascript/easy/arrayPartitionI.js)|[array_partition_i.rb](https://github.com/scaffeinate/leetcode/ruby/easy/array_partition_i.rb)|
+563|Binary Tree Tilt|[BinaryTreeTilt.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/BinaryTreeTilt.java)|[binaryTreeTilt.js](https://github.com/scaffeinate/leetcode/javascript/easy/binaryTreeTilt.js)|[binary_tree_tilt.rb](https://github.com/scaffeinate/leetcode/ruby/easy/binary_tree_tilt.rb)|
+566|Reshape The Matrix|[ReshapeTheMatrix.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ReshapeTheMatrix.java)|[reshapeTheMatrix.js](https://github.com/scaffeinate/leetcode/javascript/easy/reshapeTheMatrix.js)|[reshape_the_matrix.rb](https://github.com/scaffeinate/leetcode/ruby/easy/reshape_the_matrix.rb)|
+572|Subtree Of Another Tree|[SubtreeOfAnotherTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/SubtreeOfAnotherTree.java)|[subtreeOfAnotherTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/subtreeOfAnotherTree.js)|[subtree_of_another_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/subtree_of_another_tree.rb)|
+575|Distribute Candies|[DistributeCandies.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/DistributeCandies.java)|[distributeCandies.js](https://github.com/scaffeinate/leetcode/javascript/easy/distributeCandies.js)|[distribute_candies.rb](https://github.com/scaffeinate/leetcode/ruby/easy/distribute_candies.rb)|
+598|Range Addition II|[RangeAdditionII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/RangeAdditionII.java)|[rangeAdditionII.js](https://github.com/scaffeinate/leetcode/javascript/easy/rangeAdditionII.js)|[range_addition_ii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/range_addition_ii.rb)|
+599|Minimum Index Sum Of Two Lists|[MinimumIndexSumOfTwoLists.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MinimumIndexSumOfTwoLists.java)|[minimumIndexSumOfTwoLists.js](https://github.com/scaffeinate/leetcode/javascript/easy/minimumIndexSumOfTwoLists.js)|[minimum_index_sum_of_two_lists.rb](https://github.com/scaffeinate/leetcode/ruby/easy/minimum_index_sum_of_two_lists.rb)|
+604|Design Compressed String Iterator|[designCompressedStringIterator.js](https://github.com/scaffeinate/leetcode/javascript/easy/designCompressedStringIterator.js)|[design_compressed_string_iterator.rb](https://github.com/scaffeinate/leetcode/ruby/easy/design_compressed_string_iterator.rb)||
+605|Can Place Flowers|[CanPlaceFlowers.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/CanPlaceFlowers.java)|[canPlaceFlowers.js](https://github.com/scaffeinate/leetcode/javascript/easy/canPlaceFlowers.js)|[can_place_flowers.rb](https://github.com/scaffeinate/leetcode/ruby/easy/can_place_flowers.rb)|
+606|Construct String From Binary Tree|[ConstructStringFromBinaryTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ConstructStringFromBinaryTree.java)|[constructStringFromBinaryTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/constructStringFromBinaryTree.js)|[construct_string_from_binary_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/construct_string_from_binary_tree.rb)|
+617|Merge Two Binary Trees|[MergeTwoBinaryTrees.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MergeTwoBinaryTrees.java)|[mergeTwoBinaryTrees.js](https://github.com/scaffeinate/leetcode/javascript/easy/mergeTwoBinaryTrees.js)|[merge_two_binary_trees.rb](https://github.com/scaffeinate/leetcode/ruby/easy/merge_two_binary_trees.rb)|
+624|Maximum Distance In Arrays|[MaximumDistanceInArrays.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MaximumDistanceInArrays.java)|[maximumDistanceInArrays.js](https://github.com/scaffeinate/leetcode/javascript/easy/maximumDistanceInArrays.js)|[maximum_distance_in_arrays.rb](https://github.com/scaffeinate/leetcode/ruby/easy/maximum_distance_in_arrays.rb)|
+628|Maximum Product Of Three Numbers|[MaximumProductOfThreeNumbers.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MaximumProductOfThreeNumbers.java)|[maximumProductOfThreeNumbers.js](https://github.com/scaffeinate/leetcode/javascript/easy/maximumProductOfThreeNumbers.js)|[maximum_product_of_three_numbers.rb](https://github.com/scaffeinate/leetcode/ruby/easy/maximum_product_of_three_numbers.rb)|
+633|Sum Of Square Numbers|[SumOfSquareNumbers.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/SumOfSquareNumbers.java)|[sumOfSquareNumbers.js](https://github.com/scaffeinate/leetcode/javascript/easy/sumOfSquareNumbers.js)|[sum_of_square_numbers.rb](https://github.com/scaffeinate/leetcode/ruby/easy/sum_of_square_numbers.rb)|
+637|Average Of Levels In Binary Tree|[AverageOfLevelsInBinaryTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/AverageOfLevelsInBinaryTree.java)|[averageOfLevelsInBinaryTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/averageOfLevelsInBinaryTree.js)|[average_of_levels_in_binary_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/average_of_levels_in_binary_tree.rb)|
+643|Maximum Average Subarray I|[MaximumAverageSubarrayI.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/MaximumAverageSubarrayI.java)|[maximumAverageSubarrayI.js](https://github.com/scaffeinate/leetcode/javascript/easy/maximumAverageSubarrayI.js)|[maximum_average_subarray_i.rb](https://github.com/scaffeinate/leetcode/ruby/easy/maximum_average_subarray_i.rb)|
+645|Set Mismatch|[SetMismatch.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/SetMismatch.java)|[setMismatch.js](https://github.com/scaffeinate/leetcode/javascript/easy/setMismatch.js)|[set_mismatch.rb](https://github.com/scaffeinate/leetcode/ruby/easy/set_mismatch.rb)|
+653|Two Sum IV|[TwoSumIV.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/TwoSumIV.java)|[twoSumIV.js](https://github.com/scaffeinate/leetcode/javascript/easy/twoSumIV.js)|[two_sum_iv.rb](https://github.com/scaffeinate/leetcode/ruby/easy/two_sum_iv.rb)|
+696|Count Binary Substrings|[CountBinarySubstrings.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/CountBinarySubstrings.java)|[countBinarySubstrings.js](https://github.com/scaffeinate/leetcode/javascript/easy/countBinarySubstrings.js)|[count_binary_substrings.rb](https://github.com/scaffeinate/leetcode/ruby/easy/count_binary_substrings.rb)|
+657|Judge Route Circle|[JudgeRouteCircle.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/JudgeRouteCircle.java)|[judgeRouteCircle.js](https://github.com/scaffeinate/leetcode/javascript/easy/judgeRouteCircle.js)|[judge_route_circle.rb](https://github.com/scaffeinate/leetcode/ruby/easy/judge_route_circle.rb)|
+661|Image Smoother|[ImageSmoother.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ImageSmoother.java)|[imageSmoother.js](https://github.com/scaffeinate/leetcode/javascript/easy/imageSmoother.js)|[image_smoother.rb](https://github.com/scaffeinate/leetcode/ruby/easy/image_smoother.rb)|
+669|Trim A Binary Search Tree|[TrimABinarySearchTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/TrimABinarySearchTree.java)|[trimABinarySearchTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/trimABinarySearchTree.js)|[trim_a_binary_search_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/trim_a_binary_search_tree.rb)|
+671|Second Minimum Node In A Binary Tree|[SecondMinimumNodeInABinaryTree.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/SecondMinimumNodeInABinaryTree.java)|[secondMinimumNodeInABinaryTree.js](https://github.com/scaffeinate/leetcode/javascript/easy/secondMinimumNodeInABinaryTree.js)|[second_minimum_node_in_a_binary_tree.rb](https://github.com/scaffeinate/leetcode/ruby/easy/second_minimum_node_in_a_binary_tree.rb)|
+674|Longest Continuous Increasing Subsequence|[LongestContinuousIncreasingSubsequence.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/LongestContinuousIncreasingSubsequence.java)|[longestContinuousIncreasingSubsequence.js](https://github.com/scaffeinate/leetcode/javascript/easy/longestContinuousIncreasingSubsequence.js)|[longest_continuous_increasing_subsequence.rb](https://github.com/scaffeinate/leetcode/ruby/easy/longest_continuous_increasing_subsequence.rb)|
+680|Valid Palindrome II|[ValidPalindromeII.java](https://github.com/scaffeinate/leetcode/java/src/leetcode/easy/ValidPalindromeII.java)|[validPalindromeII.js](https://github.com/scaffeinate/leetcode/javascript/easy/validPalindromeII.js)|[valid_palindrome_ii.rb](https://github.com/scaffeinate/leetcode/ruby/easy/valid_palindrome_ii.rb)|
