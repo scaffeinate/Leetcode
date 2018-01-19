@@ -1,6 +1,7 @@
 require 'git'
 
 DIFFICULTIES = ['easy', 'medium', 'hard']
+BASE_URL = "https://github.com/scaffeinate/leetcode"
 
 def get_multiline_input
   input = ""
@@ -10,8 +11,8 @@ def get_multiline_input
   return (text == "S\n") ? "" : input
 end
 
-def create_file(dir, file_name, content)
-    File.open(dir + file_name, "w") do |f|
+def create_file(file_path, content)
+    File.open(file_path, "w") do |f|
         f.write(content)
     end
 end
@@ -29,13 +30,18 @@ def init
     puts "\nEnter Leetcode problem difficulty; 0 for easy, 1 for medium, 2 for hard:"
     difficulty = gets.chomp.to_i
 
+    java_dir = "java/src/leetcode/#{DIFFICULTIES[difficulty]}"
+    javascript_dir = "javascript/#{DIFFICULTIES[difficulty]}"
+    ruby_dir = "ruby/#{DIFFICULTIES[difficulty]}"
+
     puts "\nPaste Java code; Type N when done, S to skip:"
     java_code = get_multiline_input
 
     if java_code.length > 0
         java_file_name = problem_name.split(" ").join("") + ".java"
-        create_file("java/src/leetcode/#{DIFFICULTIES[difficulty]}/", java_file_name, java_code)
-        puts "\nWrote to java/src/leetcode/#{DIFFICULTIES[difficulty]}/#{java_file_name}"
+        java_file_path = "#{java_dir}/#{java_file_name}"
+        create_file(java_file_path, java_code)
+        puts "\nWrote to #{java_file_path}"
     end
 
     puts "\nPaste Javascript code; Type N when done, S to skip:"
@@ -43,8 +49,9 @@ def init
 
     if javascript_code.length > 0
         javascript_file_name = (problem_name[0].downcase + problem_name[1, problem_name.length-1]).split(" ").join("") + ".js"
-        create_file("javascript/#{DIFFICULTIES[difficulty]}/", javascript_file_name, javascript_code)
-        puts "\nWrote to javascript/#{DIFFICULTIES[difficulty]}/#{javascript_file_name}"
+        javascript_file_path = "#{javascript_dir}/#{javascript_file_name}"
+        create_file(javascript_file_path, javascript_code)
+        puts "\nWrote to #{javascript_file_path}"
     end
 
     puts "\nPaste Ruby code; Type N when done, S to skip:"
@@ -52,14 +59,18 @@ def init
 
     if ruby_code.length > 0
         ruby_file_name = problem_name.split(" ").join("_").downcase + ".rb"
-        create_file("ruby/#{DIFFICULTIES[difficulty]}/", ruby_file_name, ruby_code)
-        puts "\nWrote to ruby/#{DIFFICULTIES[difficulty]}/#{ruby_file_name}"
+        ruby_file_path = "#{ruby_dir}/#{ruby_file_name}"
+        create_file(ruby_file_path, ruby_code)
+        puts "\nWrote to #{ruby_file_path}"
     end
 
     File.open("README.md", "a") do |f|
         temp = DIFFICULTIES[difficulty]
         difficulty_level = temp[0].upcase + temp[1, temp.length-1]
-        f.write("#{problem_no}|#{problem_name}|#{difficulty_level}|\n")
+        java_url = "#{BASE_URL}/#{java_file_path}"
+        javascript_url = "#{BASE_URL}/#{javascript_file_path}"
+        ruby_url = "#{BASE_URL}/#{ruby_file_path}"
+        f.write("#{problem_no}|#{problem_name}|#{difficulty_level}|[#{java_file_name}](#{java_url})|[#{javascript_file_name}](#{javascript_url})|[#{ruby_file_name}](#{ruby_url})|\n")
     end
 
     puts "\nExcellent! Do you want to commit to Git? (Y/N)"
