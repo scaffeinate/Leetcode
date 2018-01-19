@@ -1,4 +1,4 @@
-public class Solution {
+public class IslandPerimeter {
     public int islandPerimeter(int[][] grid) {
         if(grid.length == 0) return 0;
         int perimeter = 0;

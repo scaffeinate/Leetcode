@@ -1,4 +1,4 @@
-class Solution {
+class ImageSmoother {
     public int[][] imageSmoother(int[][] M) {
         if(M.length == 0) return M;
         int[][] neighbours = new int[][] { {0,1}, {0,-1},{1,0}, {-1,0}, {-1,-1}, {1,1}, {1,-1}, {-1,1} };

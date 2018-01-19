@@ -1,4 +1,4 @@
-class Logger {
+class LoggerRateLimiter {
 
     private Map<String,Integer> timestampMap;
     /** Initialize your data structure here. */

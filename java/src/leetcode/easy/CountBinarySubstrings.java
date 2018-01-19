@@ -1,4 +1,4 @@
-class Solution {
+class CountBinarySubstrings {
     public int countBinarySubstrings(String s) {
         if(s.length() == 0) return 0;
         int count = 1, prevCount = 0, totalCount = 0, i = 1;

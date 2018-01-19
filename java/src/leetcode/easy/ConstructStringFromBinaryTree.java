@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class ConstructStringFromBinaryTree {
     public String tree2str(TreeNode t) {
         if(t == null) return "";
         StringBuilder builder = new StringBuilder();

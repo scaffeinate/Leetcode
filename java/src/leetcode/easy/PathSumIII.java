@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class PathSumIII {
     public int pathSum(TreeNode root, int sum) {
         if(root == null) return 0;
         return numPaths(root, sum, 0, new HashMap<Integer, Integer>());

@@ -1,4 +1,4 @@
-class Solution {
+class ReshapeTheMatrix {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         if(nums.length == 0 || (nums.length * nums[0].length != (r * c))) {
             return nums;

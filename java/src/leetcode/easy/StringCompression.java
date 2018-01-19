@@ -1,4 +1,4 @@
-class Solution {
+class StringCompression {
     public int compress(char[] chars) {
         if(chars.length == 0) return 0;
         

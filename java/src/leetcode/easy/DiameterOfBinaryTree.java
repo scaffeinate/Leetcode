@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class DiameterOfBinaryTree {
     public int diameterOfBinaryTree(TreeNode root) {
         Wrapper w = new Wrapper();
         diameterOfBinaryTree(root, w);

@@ -1,4 +1,4 @@
-class Solution {
+class MaximumDistanceInArrays {
     public int maxDistance(List<List<Integer>> arrays) {
         List<Integer> arr = arrays.get(0);
         int maxDistance = 0, min = arr.get(0), max = arr.get(arr.size()-1);

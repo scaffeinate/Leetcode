@@ -1,4 +1,4 @@
-class Solution {
+class ValidPalindromeII {
     public boolean validPalindrome(String s) {
         int i = 0, j = s.length()-1;
         while(i < j) {

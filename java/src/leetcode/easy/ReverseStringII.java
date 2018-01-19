@@ -1,4 +1,4 @@
-public class Solution {
+public class ReverseStringII {
     public String reverseStr(String s, int k) {
         char[] arr = s.toCharArray();
         int i = 0;

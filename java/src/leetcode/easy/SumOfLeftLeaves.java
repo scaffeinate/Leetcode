@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class SumOfLeftLeaves {
     public int sumOfLeftLeaves(TreeNode root) {
         return sumOfLeftLeaves(root, false);
     }

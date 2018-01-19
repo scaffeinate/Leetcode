@@ -1,4 +1,4 @@
-public class Solution {
+public class AddStrings {
     public String addStrings(String num1, String num2) {
         StringBuilder builder = new StringBuilder();
         int i = num1.length()-1, j = num2.length()-1, carry = 0;

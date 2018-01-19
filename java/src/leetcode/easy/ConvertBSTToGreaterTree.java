@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class ConvertBSTToGreaterTree {
     public TreeNode convertBST(TreeNode root) {
         convertBST(root, new Wrapper());
         return root;

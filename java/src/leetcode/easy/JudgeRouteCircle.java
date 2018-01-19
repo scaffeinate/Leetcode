@@ -1,4 +1,4 @@
-class Solution {
+class JudgeRouteCircle {
     public boolean judgeCircle(String moves) {
         int[] pos = new int[] {0, 0};
         for(int i = 0; i < moves.length(); i++) {

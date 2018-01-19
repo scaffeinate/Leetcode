@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class SubtreeOfAnotherTree {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         if(s == null || t == null) return false;
         if(s.val == t.val && compare(s, t)) return true; 

@@ -1,4 +1,4 @@
-class Solution {
+class ReverseWordsInAStringIII {
     public String reverseWords(String s) {
         StringBuilder builder = new StringBuilder();
         StringBuilder temp = new StringBuilder();

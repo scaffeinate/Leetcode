@@ -1,4 +1,4 @@
-class Solution {
+class ConstructTheRectangle {
     public int[] constructRectangle(int area) {
         int[] result = new int[] { area, 1 };
         int diff = area, sqrt = (int) Math.sqrt(area);

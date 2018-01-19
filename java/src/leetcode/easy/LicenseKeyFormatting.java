@@ -1,4 +1,4 @@
-class Solution {
+class LicenseKeyFormatting {
     public String licenseKeyFormatting(String S, int K) {
         StringBuilder builder = new StringBuilder();
         S = S.replaceAll("-", "");

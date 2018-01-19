@@ -1,4 +1,4 @@
-class Solution {
+class PerfectNumber {
     public boolean checkPerfectNumber(int num) {
         if(num <= 1) return false;
         int sqrt = (int) Math.sqrt(num), sum = 1;

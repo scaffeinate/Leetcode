@@ -1,4 +1,4 @@
-public class Solution {
+public class LongestPalindrome {
     public int longestPalindrome(String s) {
         Set<Character> counter = new HashSet<Character>();
         int count = 0;

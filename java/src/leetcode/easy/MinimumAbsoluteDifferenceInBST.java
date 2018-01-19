@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class MinimumAbsoluteDifferenceInBST {
     public int getMinimumDifference(TreeNode root) {
         Wrapper w = new Wrapper();
         getMinimum(root, w);

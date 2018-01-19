@@ -1,4 +1,4 @@
-public class Solution {
+public class DistributeCandies {
     public int distributeCandies(int[] candies) {
         Set<Integer> counter = new HashSet<Integer>();
         for(int i=0;i<candies.length;i++) {

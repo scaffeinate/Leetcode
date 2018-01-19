@@ -1,4 +1,4 @@
-class Solution {
+class RangeAdditionII {
     public int maxCount(int m, int n, int[][] ops) {
         int minRow = m, minCol = n;
         for(int[] op : ops) {

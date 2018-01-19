@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class SecondMinimumNodeInABinaryTree {
     public int findSecondMinimumValue(TreeNode root) {
         int min = root.val;
         int secondMin = findSecondMinimumValue(root, min);

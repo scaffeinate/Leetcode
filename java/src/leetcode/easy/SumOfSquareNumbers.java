@@ -1,4 +1,4 @@
-public class Solution {
+public class SumOfSquareNumbers {
     public boolean judgeSquareSum(int c) {
         int sqrt = (int) Math.sqrt(c);
         for(int i = 0; i <= sqrt; i++) {

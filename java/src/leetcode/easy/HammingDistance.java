@@ -1,4 +1,4 @@
-class Solution {
+class HammingDistance {
     public int hammingDistance(int x, int y) {
         int xor = x ^ y, count = 0;
         while(xor > 0) {

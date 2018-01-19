@@ -1,4 +1,4 @@
-class Solution {
+class StudentAttendanceRecordI {
     public boolean checkRecord(String s) {
         int i = 0, aCount = 0, lCount = 0;
         while(i < s.length()) {

@@ -1,4 +1,4 @@
-class Solution {
+class MinimumIndexSumOfTwoLists {
     public String[] findRestaurant(String[] list1, String[] list2) {
         List<String> results = new ArrayList<String>();
         int min = list1.length + list2.length;

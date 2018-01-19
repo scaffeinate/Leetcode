@@ -1,4 +1,4 @@
-class Solution {
+class ArrayPartitionI {
     public int arrayPairSum(int[] nums) {
         int sum = 0;
         Arrays.sort(nums);

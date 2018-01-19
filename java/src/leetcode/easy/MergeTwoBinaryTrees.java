@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class MergeTwoBinaryTrees {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         if(t1 == null && t2 == null) return null;
         int sum = ((t1 != null) ? t1.val : 0) + ((t2 != null) ? t2.val : 0);

@@ -1,4 +1,4 @@
-public class Solution {
+public class MaximumAverageSubarrayI {
     public double findMaxAverage(int[] nums, int k) {
         double maxAverage = Integer.MIN_VALUE, baseSum = 0;
         int n = nums.length;

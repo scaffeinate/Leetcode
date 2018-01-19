@@ -1,4 +1,4 @@
-class Solution {
+class RepeatedSubstringPattern {
     public boolean repeatedSubstringPattern(String s) {
         for(int i = 1; i <= s.length()/2; i++) {
             if(s.length() % i == 0) {

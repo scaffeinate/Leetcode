@@ -1,4 +1,4 @@
-class Solution {
+class FindAllAnagramsInAString {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> results = new ArrayList<Integer>();
         if(s.length() < p.length()) return results;

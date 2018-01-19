@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class AverageOfLevelsInBinaryTree {
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> result = new ArrayList<Double>();
         if(root == null) { return result; }

@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class BinaryTreeTilt {
     public int findTilt(TreeNode root) {
         Wrapper w = new Wrapper();
         findTilt(root, w);

@@ -16,6 +16,21 @@ def add_spaces(capitalized_word)
     return res
 end
 
+def update_class_name(file)
+    ext = File.extname file
+    base_name = File.basename file, ext
+    return if base_name == "GuessNumberHigherOrLower"
+    content = File.read(file)
+    i = content.index(/class/)
+    j = content.index(/{/)
+    substr = content[i, (j-i+1)]
+    parts = substr.split(" ")
+    if parts[1] != base_name && parts[1] != "TreeNode"
+        cleand = content.gsub("class #{parts[1]} {", "class #{base_name} {")
+        File.open(file, 'w') { |f| f.write(cleand) }
+    end
+end
+
 def normalize_name(file)
     ext = File.extname file
     base_name = File.basename file, ext
@@ -44,6 +59,7 @@ def update
     files_map = {}
     
     java_files.each do |file|
+        #update_class_name(file)
         name = normalize_name(file)
         files_map[name] = [file]
     end
@@ -59,19 +75,13 @@ def update
     
     ruby_files.each do |file|
         name = normalize_name(file)
-        p name
         if files_map.has_key?(name)
             files_map[name].push(file)
         else
             files_map[name] = [file]
         end
     end
-    sum = 0
-    files_map.map do |k,v|
-        sum += 1 if v.length < 3
-    end
-    #p files_map["Roman To Int"]
-    p sum
+
     files_map.each do |k,v|
         p v if(v.length < 3)
     end

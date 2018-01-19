@@ -1,4 +1,4 @@
-class Solution {
+class ValidWordSquare {
     public boolean validWordSquare(List<String> words) {
         int maxLen = 0;
         List<String> columns = new ArrayList<String>();

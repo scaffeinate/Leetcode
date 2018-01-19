@@ -1,4 +1,4 @@
-class Solution {
+class FizzBuzz {
     private static final String FIZZ = "Fizz";
     private static final String BUZZ = "Buzz";
     private static final String FIZZBUZZ = FIZZ + BUZZ;

@@ -1,4 +1,4 @@
-class Solution {
+class RelativeRanks {
     public String[] findRelativeRanks(int[] nums) {
         Map<Integer, Integer> indexMap = new HashMap<>();
         int n = nums.length;
