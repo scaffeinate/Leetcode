@@ -68,9 +68,9 @@ def init
         temp = DIFFICULTIES[difficulty]
         difficulty_level = temp[0].upcase + temp[1, temp.length-1]
         links = ""
-        links += "#{BASE_URL}/#{java_file_path}," if java_code.length > 0
-        links += "#{BASE_URL}/#{javascript_file_path}," if javascript_code.length > 0
-        links += "#{BASE_URL}/#{ruby_file_path}" if ruby_code.length > 0
+        links += "[java](#{BASE_URL}/#{java_file_path})," if java_code.length > 0
+        links += "[js](#{BASE_URL}/#{javascript_file_path})," if javascript_code.length > 0
+        links += "[rb](#{BASE_URL}/#{ruby_file_path})" if ruby_code.length > 0
         f.write("#{problem_no}|#{problem_name}|#{links}|\n")
     end
 
