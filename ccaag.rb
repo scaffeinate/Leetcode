@@ -67,10 +67,11 @@ def init
     File.open("README.md", "a") do |f|
         temp = DIFFICULTIES[difficulty]
         difficulty_level = temp[0].upcase + temp[1, temp.length-1]
-        java_url = "#{BASE_URL}/#{java_file_path}"
-        javascript_url = "#{BASE_URL}/#{javascript_file_path}"
-        ruby_url = "#{BASE_URL}/#{ruby_file_path}"
-        f.write("#{problem_no}|#{problem_name}|[java](#{java_url}),[js](#{javascript_url})|[rb](#{ruby_url})|\n")
+        links = ""
+        links += "#{BASE_URL}/#{java_file_path}," if java_code.length > 0
+        links += "#{BASE_URL}/#{javascript_file_path}," if javascript_code.length > 0
+        links += "#{BASE_URL}/#{ruby_file_path}" if ruby_code.length > 0
+        f.write("#{problem_no}|#{problem_name}|#{links}|\n")
     end
 
     puts "\nExcellent! Do you want to commit to Git? (Y/N)"
