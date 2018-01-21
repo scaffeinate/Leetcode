@@ -181,3 +181,4 @@ Leetcode solutions in Java for 400+ problems[Solutions are being added]
 | # | Title | Links |
 |---| ----- | ----- |
 15|3Sum|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/medium/3Sum.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/medium/3Sum.js),[rb](https://github.com/scaffeinate/leetcode/blob/master/ruby/medium/3sum.rb)|
+73|Set Matrix Zeroes|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/medium/SetMatrixZeroes.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/medium/setMatrixZeroes.js),[rb](https://github.com/scaffeinate/leetcode/blob/master/ruby/medium/set_matrix_zeroes.rb)|
