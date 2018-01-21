@@ -175,3 +175,9 @@ Leetcode solutions in Java for 400+ problems[Solutions are being added]
 747|Largest Number At Least Twice Of Others|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/easy/LargestNumberAtLeastTwiceOfOthers.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/easy/largestNumberAtLeastTwiceOfOthers.js),[rb](https://github.com/scaffeinate/leetcode/blob/master/ruby/easy/largest_number_at_least_twice_of_others.rb)|
 760|Find Anagram Mappings|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/easy/FindAnagramMappings.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/easy/findAnagramMappings.js),[rb](https://github.com/scaffeinate/leetcode/blob/master/ruby/easy/find_anagram_mappings.rb)|
 762|Prime Number Of Set Bits In Binary Representation|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/easy/PrimeNumberOfSetBitsInBinaryRepresentation.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/easy/primeNumberOfSetBitsInBinaryRepresentation.js),[rb](https://github.com/scaffeinate/leetcode/blob/master/ruby/easy/prime_number_of_set_bits_in_binary_representation.rb)|
+
+## Medium
+
+| # | Title | Links |
+|---| ----- | ----- |
+15|3Sum|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/medium/3Sum.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/medium/3Sum.js),[rb](https://github.com/scaffeinate/leetcode/blob/master/ruby/medium/3sum.rb)|
