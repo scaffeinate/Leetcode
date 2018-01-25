@@ -180,7 +180,7 @@ Leetcode solutions in Java for 400+ problems[Solutions are being added]
 
 | # | Title | Links |
 |---| ----- | ----- |
-146|LRU Cache|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/hard/LRUCache.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/hard/lRUCache.js)|
+146|LRU Cache|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/hard/LRUCache.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/hard/lRUCache.js),[rb](https://github.com/scaffeinate/Leetcode/blob/master/ruby/hard/lru_cache.rb)|
 
 ## Medium
 
