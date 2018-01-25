@@ -176,6 +176,12 @@ Leetcode solutions in Java for 400+ problems[Solutions are being added]
 760|Find Anagram Mappings|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/easy/FindAnagramMappings.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/easy/findAnagramMappings.js),[rb](https://github.com/scaffeinate/leetcode/blob/master/ruby/easy/find_anagram_mappings.rb)|
 762|Prime Number Of Set Bits In Binary Representation|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/easy/PrimeNumberOfSetBitsInBinaryRepresentation.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/easy/primeNumberOfSetBitsInBinaryRepresentation.js),[rb](https://github.com/scaffeinate/leetcode/blob/master/ruby/easy/prime_number_of_set_bits_in_binary_representation.rb)|
 
+## Hard
+
+| # | Title | Links |
+|---| ----- | ----- |
+146|LRU Cache|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/hard/LRUCache.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/hard/lRUCache.js)|
+
 ## Medium
 
 | # | Title | Links |
@@ -214,4 +220,3 @@ Leetcode solutions in Java for 400+ problems[Solutions are being added]
 56|Merge Intervals|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/medium/MergeIntervals.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/medium/mergeIntervals.js),[rb](https://github.com/scaffeinate/leetcode/blob/master/ruby/medium/merge_intervals.rb)|
 253|Meeting Rooms II|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/medium/MeetingRoomsII.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/medium/meetingRoomsII.js),[rb](https://github.com/scaffeinate/leetcode/blob/master/ruby/medium/meeting_rooms_ii.rb)|
 251|Flatten 2D Vector|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/medium/Flatten2DVector.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/medium/flatten2DVector.js),[rb](https://github.com/scaffeinate/leetcode/blob/master/ruby/medium/flatten_2d_vector.rb)|
-146|LRU Cache|[java](https://github.com/scaffeinate/leetcode/blob/master/java/src/leetcode/hard/LRUCache.java),[js](https://github.com/scaffeinate/leetcode/blob/master/javascript/hard/lRUCache.js),|
